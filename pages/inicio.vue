@@ -63,10 +63,11 @@
         </div>
       </div>
     </section>
-
-    <video autoplay muted loop data-aos="fade-up">
-      <source src="/public/assets/paradigma.mp4" type="video/mp4" />
-    </video>
+    <ClientOnly>
+      <video autoplay muted loop data-aos="fade-up">
+        <source src="/public/assets/paradigma.mp4" type="video/mp4" />
+      </video>
+    </ClientOnly>
 
     <section data-aos="fade-up">
       <div class="subsection">
@@ -86,9 +87,11 @@
       </div>
     </section>
 
-    <video autoplay muted loop data-aos="fade-up">
-      <source src="/public/assets/logobucle.mp4" type="video/mp4" />
-    </video>
+    <ClientOnly>
+      <video autoplay muted loop data-aos="fade-up">
+        <source src="/public/assets/logobucle.mp4" type="video/mp4" />
+      </video>
+    </ClientOnly>
 
     <section data-aos="fade-up">
       <div class="subsection">
@@ -131,9 +134,11 @@
       </div>
     </section>
 
-    <video autoplay muted loop data-aos="fade-up">
-      <source src="/public/assets/esgrafiado.mp4" type="video/mp4" />
-    </video>
+    <ClientOnly>
+      <video autoplay muted loop data-aos="fade-up">
+        <source src="/public/assets/esgrafiado.mp4" type="video/mp4" />
+      </video>
+    </ClientOnly>
 
     <section data-aos="fade-up">
       <div class="subsection">
@@ -153,9 +158,11 @@
         </div>
       </div>
     </section>
-    <video autoplay muted loop data-aos="fade-up">
-      <source src="/public/assets/sgrafotype.mp4" type="video/mp4" />
-    </video>
+    <ClientOnly>
+      <video autoplay muted loop data-aos="fade-up">
+        <source src="/public/assets/sgrafotype.mp4" type="video/mp4" />
+      </video>
+    </ClientOnly>
   </div>
 </template>
 
