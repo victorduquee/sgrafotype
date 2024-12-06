@@ -86,6 +86,10 @@ const toggleLateralNavCompressed = () => {
   @apply h-screen fixed flex flex-col z-40;
   @apply pt-[58px] sm:pt-[58px] md:pt-[74px] lg:pt-32 xl:pt-40 2xl:pt-40;
   @apply px-16 sm:px-16 md:px-16 lg:px-12 xl:px-16 2xl:px-16;
+
+  a {
+    @apply m-0;
+  }
 }
 
 /* Pestaña */
