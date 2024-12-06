@@ -4,6 +4,20 @@
   </NuxtLayout>
 </template>
 
+<script setup>
+useHead({
+  link: [
+    {
+      rel: 'preload',
+      href: '/public/fonts/SGrafoTypeVF.ttf',
+      as: 'font',
+      type: 'font/woff2',
+      crossorigin: 'anonymous'
+    }
+  ]
+});
+</script>
+
 <style>
 .page-enter-active,
 .page-leave-active {
@@ -13,6 +27,5 @@
 .page-leave-to {
   opacity: 0;
 }
-
-
 </style>
+
