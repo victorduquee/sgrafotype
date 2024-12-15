@@ -1,5 +1,8 @@
 <template>
-  <body class="">
+  <body class="keyboard-container">
+    <div class="warn-text">
+      <p class="small">Este teclado no es interactivo.</p>
+    </div>
     <div class="container">
       <div class="keyboard_wrapp">
         <div class="keyboard_lights"></div>
@@ -81,6 +84,7 @@
       </div>
       <!-- <input class="text" type="text" /> -->
     </div>
+    
   </body>
 </template>
 
@@ -201,6 +205,10 @@ export default {
   @apply p-2 sm:p-2 md:p-2 lg:p-2 xl:p-4 2xl:p-4;
 }
 
+.keyboard-container{
+  @apply flex flex-col gap-2;
+}
+
 .keyboard_wrapp {
   @apply w-full overflow-hidden relative order-2;
   user-select: none;
@@ -221,7 +229,7 @@ export default {
 
   // Responsive
   @apply py-1 sm:py-1 md:py-1 lg:py-1 xl:py-1 2xl:py-1;
-  @apply m-px sm:m-px md:m-1 lg:m-px xl:m-1 2xl:m-1;
+  @apply m-px sm:m-px md:m-px lg:m-px xl:m-px 2xl:m-1;
 
   transition: 0.2s;
 }
