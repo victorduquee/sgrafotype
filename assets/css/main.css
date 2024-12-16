@@ -14,7 +14,8 @@ html {
 /* incluir fuentes locales */
 @font-face {
   font-family: "SGrafoType";
-  src: url("/public/fonts/SGrafoTypeVF.ttf") format("truetype-variations");
+  src: url("/fonts/SGrafoTypeVF.ttf") format("truetype-variations");
+  font-display: swap;
 }
 
 @layer utilities {

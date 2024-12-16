@@ -24,7 +24,17 @@ const totalCharacters = fullText.length; // Número de caracteres en el texto
 const duration = 4000; // Duración total en milisegundos (4 segundos)
 let charIndex = 0; // Índice para recorrer el texto
 
-onMounted(() => {
+onMounted(async () => {
+
+  // AQUI, SI ALGO NO FUNCIONA, QUITAR TODO DESDE AQUI A "Incremento para..." Y EL ASYNC DE ANTES
+
+  // Pre-carga las fuentes
+  const font = new FontFace("SGrafoType", "url(/fonts/SGrafoTypeVF.ttf)");
+  await font.load();
+  document.fonts.add(font);
+
+  console.log("Fuente SGrafoType cargada manualmente");
+
   // Incremento para la barra de progreso
   const progressIncrement = 100 / (duration / 100); // Aumenta cada 100ms
   const textInterval = duration / totalCharacters; // Escribe un carácter cada este intervalo de tiempo (300ms)
@@ -83,7 +93,6 @@ onMounted(() => {
 
   font-variation-settings: "wdth" 0;
   .animated-text {
-
   }
 }
 </style>
