@@ -16,7 +16,7 @@
 
         <li>
           <button>
-            <NuxtLink to="/prueba">Prueba</NuxtLink>
+            <NuxtLink to="/aprende">Aprende</NuxtLink>
           </button>
         </li>
         <li>
@@ -72,9 +72,9 @@
             </li>
           </NuxtLink>
 
-          <NuxtLink to="/prueba" @click="closeMenu">
+          <NuxtLink to="/aprende" @click="closeMenu">
             <li>
-              <button class="button-big">Prueba</button>
+              <button class="button-big">Aprende</button>
               <svg
                 viewBox="0 0 30 30"
                 fill="none"
