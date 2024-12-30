@@ -67,10 +67,17 @@ h3 {
 }
 
 button {
-  @apply text-poppins text-xl font-semibold leading-none uppercase focus:outline-none text-azuloscuro-50 whitespace-nowrap;
+  @apply text-poppins text-xl font-medium leading-none uppercase focus:outline-none text-azuloscuro-50 whitespace-nowrap;
   @apply transition duration-300;
   @apply hover:text-naranja-50;
 }
+
+.main-button {
+  @apply text-poppins text-xl font-semibold leading-none focus:outline-none text-azuloscuro-50 whitespace-nowrap;
+  @apply transition duration-300;
+  @apply hover:text-naranja-50;
+}
+
 
 
 .button-big {
@@ -84,7 +91,7 @@ button {
 
 a {
   @apply transition duration-300;
-  @apply font-semibold;
+  @apply font-medium;
   @apply hover:text-naranja-50;
 }
 

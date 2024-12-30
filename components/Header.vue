@@ -1,8 +1,8 @@
 <template>
   <header class="header">
     <!-- Logo -->
-    <p>
-      <button><NuxtLink to="/inicio">SgrafoType</NuxtLink></button>
+    <p >
+      <NuxtLink class="main-button" to="/inicio">SGrafoType</NuxtLink>
     </p>
 
     <!-- Menú de Escritorio -->

@@ -1,82 +1,58 @@
 <template>
   <footer class="footer">
-    <div class="footer-content">
-      <div class="footer-info">
-        <div class="footer-info-copy">
-          <p class="small">2024</p>
-          <p class="small">Un proyecto de Víctor Duque</p>
-        </div>
-      </div>
-      <div class="footer-links">
-        <a class="small" href="https://www.instagram.com/victorduque.ai/"
-          >Instagram</a
-        >
-        <a class="small" href="victorduque.com">My portfolio</a>
+    <div class="footer-info">
+      <h1>SGrafoType</h1>
+      <div class="footer-info-copy">
+        <p class="small">&copy; 2023 Víctor Duque</p>
+        <p class="small">Todos los derechos reservados.</p>
       </div>
     </div>
-
-    <svg
-      class="logo-sgrafotype"
-      data-aos="fade-up"
-      viewBox="0 0 729 122"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <g>
-        <path
-          d="M0 67.75H20.76C20.76 73.62 26.89 78.32 34.6 78.32C41.52 78.32 47.26 74.66 47.26 69.57C47.26 55.47 1.44 61.61 1.44 31.06C1.44 14.1 15.66 3.12999 33.81 3.12999C51.96 3.12999 66.71 14.88 66.71 30.54H45.95C45.95 25.19 40.6 21.14 33.68 21.14C27.41 21.14 22.19 24.27 22.19 29.36C22.19 43.59 68.01 35.89 68.01 67.22C68.01 84.84 53.26 96.33 34.33 96.33C15.4 96.33 0 83.81 0 67.75ZM72.82 49.74C72.82 23.24 93.31 3.13999 120.47 3.13999C142.01 3.13999 159.89 15.8 164.72 33.56H142.14C137.7 26.9 129.87 22.59 120.47 22.59C105.2 22.59 93.58 34.21 93.58 49.74C93.58 65.27 105.2 76.89 120.47 76.89C131.83 76.89 140.7 70.75 144.23 61.49H123.21V43.21H166.29V94.77H149.19V83.02C143.05 91.77 133.26 96.33 120.47 96.33C93.32 96.33 72.82 76.23 72.82 49.73V49.74ZM184.3 43.47C180.64 40.99 178.42 36.55 178.42 31.72C178.42 24.67 183.38 19.84 190.82 19.84C197.87 19.84 202.7 24.28 203.48 30.15L244.6 34.85V39.42C237.42 49.34 233.63 57.96 233.63 65.27C233.63 72.58 237.16 76.37 243.81 76.37H246.68V94.78H242.11C223.57 94.78 214.04 84.6 214.04 67.63C214.04 61.89 215.21 56.14 217.96 50.27L201.64 48.05L192.89 94.78H174.09L184.27 43.48L184.3 43.47ZM249.85 61.48C249.85 41.64 263.69 26.63 281.96 26.63C290.05 26.63 296.97 29.63 302.06 34.85V28.19H321.12V71.01C321.12 74.4 323.08 76.36 326.47 76.36H327.77V94.77H322.42C313.28 94.77 307.28 91.77 304.27 85.76C298.92 92.29 291.22 96.33 281.95 96.33C263.67 96.33 249.84 81.32 249.84 61.48H249.85ZM302.07 61.48C302.07 52.08 295.15 45.03 285.75 45.03C276.35 45.03 269.56 52.08 269.56 61.48C269.56 70.88 276.48 77.93 285.75 77.93C295.02 77.93 302.07 70.88 302.07 61.48ZM328.63 102.21H331.63C337.37 102.21 340.51 99.21 340.51 93.72V45.55H330.46V28.19H340.51V23.75C340.51 8.08999 349.39 -0.0100098 366.62 -0.0100098H374.06V17.35H368.45C362.71 17.35 359.57 20.35 359.57 25.83V28.18H374.06V45.54H359.57V95.8C359.57 111.46 350.69 119.56 333.46 119.56H328.63V102.2V102.21ZM376.69 61.48C376.69 41.64 392.09 26.63 412.59 26.63C433.09 26.63 448.49 41.64 448.49 61.48C448.49 81.32 433.09 96.33 412.59 96.33C392.09 96.33 376.69 81.32 376.69 61.48ZM428.9 61.48C428.9 52.08 421.98 45.03 412.58 45.03C403.18 45.03 396.26 52.08 396.26 61.48C396.26 70.88 403.18 77.93 412.58 77.93C421.98 77.93 428.9 70.88 428.9 61.48ZM465.6 23.76H441.97V4.69999H509.46V23.76H485.83V94.77H465.6V23.76ZM506.13 67.88V28.2H525.19V62.14C525.19 69.58 529.89 74.41 537.07 74.41C544.77 74.41 549.99 69.45 549.99 61.88V28.2H569.05V90.73C569.05 109.14 556.13 121.15 537.59 121.15C521.53 121.15 509.92 112.14 506.39 97.65H525.97C527.93 101.96 532.5 104.57 537.72 104.57C544.9 104.57 549.99 99.61 549.99 91.65V84.86C545.03 90.21 538.5 92.95 530.67 92.95C515.92 92.95 506.13 83.03 506.13 67.89V67.88ZM580.94 28.2H600V34.86C605.09 29.64 612.01 26.64 620.1 26.64C638.51 26.64 652.21 41.65 652.21 61.49C652.21 81.33 638.5 96.34 620.1 96.34C612.01 96.34 605.09 93.34 600 88.12V119.58H580.94V28.2ZM632.63 61.48C632.63 52.08 625.71 45.03 616.31 45.03C606.91 45.03 599.99 52.08 599.99 61.48C599.99 70.88 606.91 77.93 616.31 77.93C625.71 77.93 632.63 70.88 632.63 61.48ZM656.76 61.48C656.76 41.64 672.16 26.63 692.66 26.63C713.16 26.63 728.56 41.51 728.56 61.74C728.56 63.44 728.43 66.05 728.04 67.61H677.13C679.22 75.18 685.22 80.01 693.19 80.01C699.46 80.01 704.68 77.27 707.16 73.74H727.52C722.56 87.19 709.24 96.32 692.8 96.32C672.18 96.32 656.77 81.31 656.77 61.47L656.76 61.48ZM677.25 54.96H708.19C706.1 47.65 700.23 42.95 692.66 42.95C685.09 42.95 679.34 47.65 677.26 54.96H677.25Z"
-        />
-      </g>
-    </svg>
+    <div class="footer-links">
+      <a class="small" href="https://www.instagram.com/victorduque.ai/">Instagram</a>
+      <a class="small" href="victorduque.com">My portfolio</a>
+    </div>
   </footer>
 </template>
 
 <style lang="scss" scoped>
 .footer {
-  @apply flex bg-azuloscuro-50 w-full flex-col;
+  @apply flex bg-azuloscuro-50 w-full ;
 
   /* Responsive */
 
   @apply px-6 sm:px-6 md:px-12 lg:px-12 xl:px-16 2xl:px-16;
   @apply py-8 sm:py-8 md:py-14 lg:py-14 xl:py-20 2xl:py-20;
-  @apply gap-y-20 sm:gap-y-20 md:gap-y-20 lg:gap-y-20 xl:gap-y-20 2xl:gap-y-20;
+  @apply flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row 2xl:flex-row;
+  @apply justify-center sm:justify-center md:justify-between lg:justify-between xl:justify-between 2xl:justify-between;
+  @apply gap-y-20 sm:gap-y-20 md:gap-y-0 lg:gap-y-0 xl:gap-y-0 2xl:gap-y-0;
+  .footer-info {
+    @apply flex flex-col;
+    @apply text-center sm:text-center md:text-left lg:text-left xl:text-left 2xl:text-left;
 
-  .logo-sgrafotype {
-    @apply fill-white;
-  }
-  .footer-content {
-    @apply flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row 2xl:flex-row;
-    @apply justify-center sm:justify-center md:justify-between lg:justify-between xl:justify-between 2xl:justify-between;
-
-    .footer-info {
-      @apply flex flex-col;
-      @apply text-center sm:text-center md:text-left lg:text-left xl:text-left 2xl:text-left;
-
-      h1 {
-        /* Responsive */
-        @apply mb-4 sm:mb-4 md:mb-10 lg:mb-10 xl:mb-10 2xl:mb-10 text-white;
-      }
-      .footer-info-copy {
-        @apply flex flex-col;
-        p {
-          @apply text-white;
-          margin-bottom: 0 !important;
-        }
-      }
-    }
-    .footer-links {
-      @apply flex flex-col;
-
+    h1 {
       /* Responsive */
-      @apply text-center sm:text-center md:text-right lg:text-right xl:text-right 2xl:text-right;
-      @apply flex-row sm:flex-row md:flex-col lg:flex-col xl:flex-col 2xl:flex-col;
-      @apply justify-center sm:justify-center md:justify-start lg:justify-start xl:justify-start 2xl:justify-start;
-      @apply gap-6 sm:gap-6 md:gap-0 lg:gap-0 xl:gap-0 2xl:gap-0;
-
-      a {
-        @apply text-white hover:text-naranja-50;
+      @apply mb-4 sm:mb-4 md:mb-10 lg:mb-10 xl:mb-10 2xl:mb-10 text-white;
+    }
+    .footer-info-copy {
+      @apply flex flex-col;
+      p {
+        @apply text-white;
         margin-bottom: 0 !important;
       }
+    }
+  }
+  .footer-links {
+    @apply flex flex-col;
+
+    /* Responsive */
+    @apply text-center sm:text-center md:text-right lg:text-right xl:text-right 2xl:text-right;
+    @apply flex-row sm:flex-row md:flex-col lg:flex-col xl:flex-col 2xl:flex-col;
+    @apply justify-center sm:justify-center md:justify-start lg:justify-start xl:justify-start 2xl:justify-start;
+    @apply gap-6 sm:gap-6 md:gap-0 lg:gap-0 xl:gap-0 2xl:gap-0;
+
+    a {
+      @apply text-white hover:text-naranja-50;
+      margin-bottom: 0 !important;
     }
   }
 }
