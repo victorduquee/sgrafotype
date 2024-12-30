@@ -136,8 +136,18 @@
 <script>
 
 
+
+
 definePageMeta({
-  layout: 'prueba-layout'
+  layout: 'prueba-layout',
+  title: 'Aprende | SGrafoType',
+  meta: [
+    { name: 'description', content: 'En esta sección aprenderás todos los conocimientos necesarios para aprender a utilizar SGrafoType.' },
+    { property: 'og:title', content: 'Aprende | SGrafoType' },
+    { property: 'og:description', content: 'En esta sección aprenderás todos los conocimientos necesarios para aprender a utilizar SGrafoType.' },
+    { name: 'twitter:title', content: 'Aprende | SGrafoType' },
+    { name: 'twitter:description', content: 'En esta sección aprenderás todos los conocimientos necesarios para aprender a utilizar SGrafoType.' }
+  ]
 });
 
 

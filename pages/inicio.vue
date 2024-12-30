@@ -166,4 +166,15 @@
   </div>
 </template>
 
-<script></script>
+<script setup>
+definePageMeta({
+  title: 'Inicio | SGrafoType',
+  meta: [
+    { name: 'description', content: 'SGrafoType, una familia tipográfica creada específicamente para el proyecto, es el corazón de un proyecto que busca dotar a Segovia de una identidad gráfica única. Un enfoque que respeta su legado, refleja su espíritu acogedor y permite comunicar su esencia de manera coherente y auténtica al mundo.' },
+    { property: 'og:title', content: 'Inicio | SGrafoType' },
+    { property: 'og:description', content: 'SGrafoType, una familia tipográfica creada específicamente para el proyecto, es el corazón de un proyecto que busca dotar a Segovia de una identidad gráfica única. Un enfoque que respeta su legado, refleja su espíritu acogedor y permite comunicar su esencia de manera coherente y auténtica al mundo.' },
+    { name: 'twitter:title', content: 'Inicio | SGrafoType' },
+    { name: 'twitter:description', content: 'SGrafoType, una familia tipográfica creada específicamente para el proyecto, es el corazón de un proyecto que busca dotar a Segovia de una identidad gráfica única. Un enfoque que respeta su legado, refleja su espíritu acogedor y permite comunicar su esencia de manera coherente y auténtica al mundo.' }
+  ]
+});
+</script>

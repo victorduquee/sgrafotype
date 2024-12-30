@@ -1,7 +1,7 @@
 <template>
   <header class="header">
     <!-- Logo -->
-    <p >
+    <p>
       <NuxtLink class="main-button" to="/inicio">SGrafoType</NuxtLink>
     </p>
 
@@ -42,7 +42,7 @@
       <div v-if="isMenuOpen" class="menu-overlay">
         <div class="top-section">
           <p>
-            <button><NuxtLink to="/inicio">SgrafoType</NuxtLink></button>
+            <NuxtLink class="main-button" to="/inicio">SGrafoType</NuxtLink>
           </p>
 
           <button @click="toggleMenu" class="close-btn">
@@ -189,7 +189,7 @@ const closeMenu = () => {
       @apply flex flex-row  items-center justify-between border-b-2 border-b-azuloscuro-800;
       @apply px-6 sm:px-6 md:px-12 lg:px-12 xl:px-16 2xl:px-16;
       @apply py-8 sm:py-8 md:py-6 lg:py-6 xl:py-6 2xl:py-6;
-      @apply hover:bg-azuloscuro-800 ;
+      @apply hover:bg-azuloscuro-800;
       svg {
         @apply stroke-[2px] stroke-azuloscuro-50  h-full;
 

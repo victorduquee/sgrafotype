@@ -78,11 +78,27 @@
 <script>
 import ComingSoon from "~/components/ComingSoon.vue";
 
+
+definePageMeta({
+  title: 'Generador | SGrafoType',
+  meta: [
+    { name: 'description', content: 'Como complemento a SGrafoType, se ha desarrollado un software que convierte imágenes en esgrafiados.' },
+    { property: 'og:title', content: 'Generador | SGrafoType' },
+    { property: 'og:description', content: 'Como complemento a SGrafoType, se ha desarrollado un software que convierte imágenes en esgrafiados.' },
+    { name: 'twitter:title', content: 'Generador | SGrafoType' },
+    { name: 'twitter:description', content: 'Como complemento a SGrafoType, se ha desarrollado un software que convierte imágenes en esgrafiados.' }
+  ]
+});
+
+
 export default {
   components: {
     ComingSoon,
   },
 };
+
+
+
 </script>
 
 <style></style>
