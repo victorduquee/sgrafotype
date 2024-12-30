@@ -25,13 +25,19 @@ html {
 }
 
 @layer utilities {
+  .text-poppins {
+    font-family: "Poppins", sans-serif;
+  }
+}
+
+@layer utilities {
   .text-sgrafotype {
     font-family: "SGrafoType";
   }
 }
 
 h1 {
-  @apply text-manrope leading-tight font-bold text-azuloscuro-50;
+  @apply text-poppins leading-tight font-semibold text-azuloscuro-50;
 
   /* Responsive */
   @apply text-3xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl 2xl:text-5xl;
@@ -39,7 +45,7 @@ h1 {
 }
 
 h2 {
-  @apply text-manrope text-azuloscuro-50 font-semibold mb-6;
+  @apply text-poppins text-azuloscuro-50 font-semibold mb-6;
 
   /* Responsive */
   @apply text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl 2xl:text-3xl;
@@ -51,17 +57,17 @@ h2 {
 
 
 h3 {
-  @apply text-manrope text-azuloscuro-50;
+  @apply text-poppins text-azuloscuro-50;
 }
 
 .eyebrow {
-  @apply text-manrope text-2xl leading-normal text-azuloscuro-50 uppercase whitespace-nowrap;
+  @apply text-poppins text-2xl leading-normal text-azuloscuro-50 uppercase whitespace-nowrap;
   /* Responsive */
   @apply text-base sm:text-base md:text-xl lg:text-xl xl:text-2xl 2xl:text-2xl;
 }
 
 button {
-  @apply text-manrope text-xl font-semibold leading-none uppercase focus:outline-none text-azuloscuro-50 whitespace-nowrap;
+  @apply text-poppins text-xl font-semibold leading-none uppercase focus:outline-none text-azuloscuro-50 whitespace-nowrap;
   @apply transition duration-300;
   @apply hover:text-naranja-50;
 }
@@ -194,7 +200,7 @@ section {
 }
 
 .big {
-  @apply text-manrope text-azuloscuro-50 mb-4;
+  @apply text-poppins text-azuloscuro-50 mb-4;
 
   /* Responsive */
   @apply text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl 2xl:text-3xl;
@@ -215,14 +221,14 @@ section {
 }
 
 .small {
-  @apply text-manrope text-2xl leading-normal text-azuloscuro-50 mb-4;
+  @apply text-poppins text-2xl leading-normal text-azuloscuro-50 mb-4;
   /* Responsive */
   @apply text-base sm:text-base md:text-xl lg:text-xl xl:text-xl 2xl:text-xl;
   @apply leading-relaxed sm:leading-relaxed md:leading-relaxed lg:leading-relaxed xl:leading-relaxed 2xl:leading-relaxed;
 }
 
 .small-grid {
-  @apply text-manrope text-2xl leading-normal text-azuloscuro-50 mb-4;
+  @apply text-poppins text-2xl leading-normal text-azuloscuro-50 mb-4;
   /* Responsive */
   @apply text-base sm:text-base md:text-xl lg:text-xl xl:text-2xl 2xl:text-2xl;
   @apply leading-relaxed sm:leading-relaxed md:leading-relaxed lg:leading-relaxed xl:leading-relaxed 2xl:leading-relaxed;
@@ -238,7 +244,7 @@ section {
 }
 
 .tiny {
-  @apply text-manrope text-lg leading-normal text-azuloscuro-50;
+  @apply text-poppins text-lg leading-normal text-azuloscuro-50;
   /* Responsive */
   @apply text-xs sm:text-xs md:text-sm lg:text-sm xl:text-lg 2xl:text-lg;
   @apply leading-relaxed sm:leading-relaxed md:leading-relaxed lg:leading-relaxed xl:leading-relaxed 2xl:leading-relaxed;
@@ -271,7 +277,7 @@ textarea:focus {
 }
 
 .numeral {
-  @apply text-manrope leading-none font-light text-azuloscuro-50 text-6xl;
+  @apply text-poppins leading-none font-light text-azuloscuro-50 text-6xl;
   @apply col-span-2 sm:col-span-2 md:col-span-2;
 
   @apply text-lg sm:text-lg md:text-xl lg:text-6xl xl:text-6xl 2xl:text-6xl;

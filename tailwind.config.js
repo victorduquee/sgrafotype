@@ -6,6 +6,7 @@ module.exports = {
     extend: {
       fontFamily: {
         manrope: ["Manrope", "Arial", "sans-serif"],
+        poppins: ["Poppins", "Arial", "sans-serif"],
         sgrafotype: ["SGrafoType"],
       },
       fontSize: {
