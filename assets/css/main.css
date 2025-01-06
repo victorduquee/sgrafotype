@@ -148,12 +148,12 @@ button.active {
 }
 
 video{
-  @apply border-b-2 border-b-azuloscuro-50;
+  @apply border-b-2 border-b-azuloscuro-50 w-screen;
 }
 
 
 img{
-  @apply border-b-2 border-b-azuloscuro-50;
+  @apply border-b-2 border-b-azuloscuro-50 w-screen;
 }
 
 
@@ -267,19 +267,21 @@ textarea:focus {
 }
 
 .enumeracion {
-  @apply col-span-12 grid grid-cols-12 gap-6;
+  @apply col-span-12 grid grid-cols-12;
+  @apply gap-y-10 sm:gap-y-10 md:gap-y-10  lg:gap-y-10  xl:gap-y-10  2xl:gap-y-10;
 }
 
 .enumeracion-item {
+  @apply items-start;
   @apply flex-col sm:flex-col md:flex-row lg:flex-col xl:flex-col 2xl:flex-col;
   @apply col-span-12 sm:col-span-12 md:col-span-12 lg:col-span-3 xl:col-span-3 2xl:col-span-3;
   @apply grid sm:grid md:grid lg:flex xl:flex 2xl:flex;
   @apply grid-cols-12 sm:grid-cols-12 md:grid-cols-12;
-  @apply gap-6 sm:gap-6 md:gap-6;
+  @apply gap-4 sm:gap-4 md:gap-4  lg:gap-6  xl:gap-6  2xl:gap-6;
 }
 
 .enumeracion-blank{
-  @apply col-span-1;
+  @apply col-span-1 ;
   @apply hidden sm:hidden md:hidden lg:block xl:block 2xl:block;
 }
 
@@ -291,6 +293,11 @@ textarea:focus {
   @apply font-bold sm:font-bold md:font-bold lg:font-light xl:font-light 2xl:font-light;
 }
 
+.numeral-svg {
+  @apply sm:col-span-2 md:col-span-2;
+  @apply h-12 sm:h-14 md:h-14 lg:h-16 xl:h-16 2xl:h-16;
+}
+
 .numeral-text {
-  @apply col-span-10 sm:col-span-10 md:col-span-10;
+  @apply col-span-12 sm:col-span-12 md:col-span-12;
 }
