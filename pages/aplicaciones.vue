@@ -17,7 +17,11 @@
     </section>
 
     
-
+    <ClientOnly>
+      <video autoplay muted loop data-aos="fade-up">
+        <source src="/public/assets/sistema.mp4" type="video/mp4" />
+      </video>
+    </ClientOnly>
 
     <img src="/public/assets/valla.png" data-aos="fade-up" />
     <img src="/public/assets/posters.png" data-aos="fade-up" />
