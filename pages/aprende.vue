@@ -122,7 +122,7 @@
           </p>
           <p class="big">
             Tenemos cinco instancias de el eje de variabilidad: Latido 1, 2,
-            3, 4 y 5, ero la variabilidad nos permite obtener todos los pasos
+            3, 4 y 5, pero la variabilidad nos permite obtener todos los pasos
             intermedios, del 1 al 1000.
           </p>
         </div>
