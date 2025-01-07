@@ -39,7 +39,7 @@
       </video>
     </ClientOnly>
     <img src="/public/assets/bus.png" data-aos="fade-up" />
-    <img src="/public/assets/equipo.png" data-aos="fade-up" />
+    <img src="/public/assets/futbol.png" data-aos="fade-up" />
   </div>
 </template>
 
