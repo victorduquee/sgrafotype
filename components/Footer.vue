@@ -4,7 +4,7 @@
       <h1>SGrafoType</h1>
       <div class="footer-info-copy">
         <p class="small">&copy; 2023 Víctor Duque</p>
-        <p class="small">Todos los derechos reservados.</p>
+
       </div>
     </div>
     <div class="footer-links">

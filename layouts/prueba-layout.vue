@@ -7,7 +7,7 @@
         <slot />
         <!-- Este slot renderiza el contenido de la página -->
       </main>
-      <Footer />
+      <!-- <Footer /> -->
     </div>
   </div>
 </template>
