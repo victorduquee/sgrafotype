@@ -2,19 +2,29 @@
   <div>
     <div class="lateral-nav-desktop">
       <NuxtLink to="#sets">
-        <a class="small">Sets estilísticos</a>
+        <button>
+          Sets estilísticos
+        </button>
       </NuxtLink>
       <NuxtLink to="#terminos">
-        <a class="small">Términos</a>
+        <button>
+          Términos utilizados
+        </button>
       </NuxtLink>
       <NuxtLink to="#escribe">
-        <a class="small">Prueba a escribir</a>
+        <button>
+          Prueba a escribir
+        </button>
       </NuxtLink>
       <NuxtLink to="#clasificacion">
-        <a class="small">Clasificación</a>
+        <button>
+          Clasificación
+        </button>
       </NuxtLink>
       <NuxtLink to="#variabilidad">
-        <a class="small">Variabilidad</a>
+        <button>
+          Variabilidad
+        </button>
       </NuxtLink>
     </div>
 
@@ -43,8 +53,11 @@
         <div class="lateral-nav-compressed-content">
           <!-- Botón de cerrar -->
           <div class="lateral-nav-compressed-footer">
-            <button class="close-button big" @click="toggleLateralNavCompressed">
-                ✕
+            <button
+              class="close-button big"
+              @click="toggleLateralNavCompressed"
+            >
+              ✕
             </button>
           </div>
           <!-- Opciones del Menú -->
@@ -83,24 +96,31 @@ const toggleLateralNavCompressed = () => {
 
 <style lang="scss" scoped>
 .lateral-nav-desktop {
-  @apply h-screen fixed flex flex-col z-40;
+  @apply h-screen fixed flex flex-col z-40 gap-y-2;
   @apply pt-[58px] sm:pt-[58px] md:pt-[74px] lg:pt-32 xl:pt-40 2xl:pt-40;
   @apply px-16 sm:px-16 md:px-16 lg:px-12 xl:px-16 2xl:px-16;
 
   a {
-    @apply m-0;
+    @apply rounded-full px-6 py-2;
+    @apply hover:bg-azuloscuro-800;
+
+    button {
+      @apply flex flex-row gap-x-4 items-center;
+    }
+
+    .ball {
+      @apply h-2 w-2 bg-azuloscuro-50 rounded-full;
+    }
   }
 }
 
 /* Pestaña */
 .tab {
   @apply hidden fixed left-0 top-1/2 transform -translate-y-1/2 z-40 bg-naranja-50 text-white p-4 rounded-r-full cursor-pointer shadow-md;
-
-  
 }
 
 .arrow {
-  svg{
+  svg {
     @apply stroke-white w-4;
   }
 }
@@ -110,8 +130,8 @@ const toggleLateralNavCompressed = () => {
   @apply hidden fixed top-1/2 transform -translate-y-1/2 left-20 bg-azuloscuro-50  text-white z-50 py-6 px-7 border-2 border-azuloscuro-50 rounded-xl shadow-md;
   @apply left-6 sm:left-6 md:left-12;
 
-  a{
-    color: white ;
+  a {
+    color: white;
     @apply hover:text-naranja-50;
   }
 }
@@ -121,7 +141,7 @@ const toggleLateralNavCompressed = () => {
 }
 
 .lateral-nav-compressed-options {
-  @apply  flex flex-col;
+  @apply flex flex-col;
 }
 
 /* Botón de cerrar */
@@ -129,7 +149,7 @@ const toggleLateralNavCompressed = () => {
 }
 
 .close-button {
-  @apply  text-white rounded;
+  @apply text-white rounded;
 }
 
 /* Media Queries */

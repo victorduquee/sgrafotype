@@ -8,6 +8,7 @@ module.exports = {
         manrope: ["Manrope", "Arial", "sans-serif"],
         poppins: ["Poppins", "Arial", "sans-serif"],
         sgrafotype: ["SGrafoType"],
+        satoshi: ["Satoshi", "Arial", "sans-serif"]
       },
       fontSize: {
         '32': '32px',  // Tamaño de fuente personalizado

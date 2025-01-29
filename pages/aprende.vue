@@ -3,7 +3,7 @@
 
     <section data-aos="fade-up" id="sets">
       <div class="section-info-container">
-        <h1>Los sets estilísticos</h1>
+        <h1>Sets estilísticos</h1>
         <div class="big-container">
           <p class="big">
             La familia tipográfica cuenta con tres sets estilísticos, además del
@@ -53,7 +53,7 @@
     </section>
     <section data-aos="fade-up" id="escribe">
       <div class="section-info-container">
-        <h1>Escribe con SGrafoType</h1>
+        <h1>Prueba a escribir</h1>
         <div class="big-container">
           <p class="big">
             SGrafoType está programada por medio de OpenType para poder acceder
@@ -66,7 +66,7 @@
     </section>
     <section data-aos="fade-up" id="clasificacion">
       <div class="section-info-container">
-        <h1>Clasificación de motivos</h1>
+        <h1>Clasificación</h1>
         <div class="big-container">
           <p class="big">
             Pensando en que los motivos se van a combinar entre ellos, se han

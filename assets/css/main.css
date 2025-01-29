@@ -18,6 +18,41 @@ html {
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Satoshi";
+  src:  url("/fonts/Satoshi/Satoshi-Light.otf") format('opentype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src:  url("/fonts/Satoshi/Satoshi-Regular.otf") format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src:  url("/fonts/Satoshi/Satoshi-Medium.otf") format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src:  url("/fonts/Satoshi/Satoshi-Bold.otf") format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src:  url("/fonts/Satoshi/Satoshi-Black.otf") format('opentype');
+  font-weight: 1000;
+  font-style: normal;
+}
+
 @layer utilities {
   .text-manrope {
     font-family: "Manrope", sans-serif;
@@ -67,9 +102,8 @@ h3 {
 }
 
 button {
-  @apply text-poppins text-xl font-medium leading-none uppercase focus:outline-none text-azuloscuro-50 whitespace-nowrap;
+  @apply text-poppins text-base font-medium leading-none uppercase focus:outline-none text-azuloscuro-50 whitespace-nowrap;
   @apply transition duration-300;
-  @apply hover:text-naranja-50;
 }
 
 .main-button {
@@ -92,7 +126,6 @@ button {
 a {
   @apply transition duration-300;
   @apply font-medium;
-  @apply hover:text-naranja-50;
 }
 
 button.active {
@@ -213,6 +246,10 @@ section {
   @apply text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl 2xl:text-3xl;
   @apply leading-normal sm:leading-normal md:leading-normal lg:leading-normal xl:leading-normal 2xl:leading-normal;
 }
+
+
+
+
 
 .big:last-child {
   @apply mb-0;

@@ -147,15 +147,26 @@ const closeMenu = () => {
 
 <style lang="scss" scoped>
 /* Estilos Base */
+
 .header {
-  @apply flex flex-row justify-between border-b-2 border-azuloscuro-50 bg-white z-50;
+  @apply flex flex-row justify-between border-2 border-azuloscuro-50 bg-white z-50 m-6 rounded-xl;
   /* Responsive */
-  @apply px-6 sm:px-6 md:px-12 lg:px-12 xl:px-16 2xl:px-16;
-  @apply py-4 sm:py-4 md:py-6 lg:py-6 xl:py-6 2xl:py-6;
+  @apply px-6 sm:px-6 md:px-6 lg:px-6 xl:px-10 2xl:px-10;
+  @apply py-4 sm:py-4 md:py-4 lg:py-4 xl:py-4 2xl:py-3;
 }
 
 .menuItems {
-  @apply flex flex-row gap-x-12;
+  @apply flex flex-row gap-x-4;
+
+  .router-link-active {
+    @apply bg-orange-500 text-white rounded-full px-6 py-1;
+    @apply hover:bg-orange-500;
+  }
+
+  a {
+    @apply rounded-full px-6 py-1;
+    @apply hover:bg-azuloscuro-800;
+  }
 }
 
 /* Botón Hamburguesa Oculto por Defecto */
