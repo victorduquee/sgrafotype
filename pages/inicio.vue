@@ -4,18 +4,12 @@
       <div class="section-info-container">
         <div class="big-solo-container">
           <p class="big">
-            Este proyecto plantea una redefinición de la marca e identidad
-            visual de Segovia, equilibrando la atracción turística con la
-            conexión local. Busca fortalecer el vínculo entre Segovia y sus
-            habitantes, proyectando al mismo tiempo una imagen atractiva y
-            auténtica al exterior.
-          </p>
-          <p class="big">
-            SGrafoType, una familia tipográfica creada específicamente para el
-            proyecto, es el corazón de un proyecto que busca dotar a Segovia de
-            una identidad gráfica única. Un enfoque que respeta su legado,
-            refleja su espíritu acogedor y permite comunicar su esencia de
-            manera coherente y auténtica al mundo.
+            SGrafoType es una familia tipográfica inspirada en el esgrafiado
+            segoviano, que nace como parte de un proyecto que busca dotar a
+            Segovia de una identidad gráfica que parta de su esencia y la
+            comunique de manera coherente y respetuosa con su legado. Se busca
+            una expresión para la ciudad que permita volver a conectar con la
+            población local y sus preocupaciones.
           </p>
         </div>
       </div>
@@ -23,19 +17,21 @@
     <section data-aos="fade-up">
       <div class="subsection">
         <div class="text-subsection-single">
-          <h2>Segovia y el turismo</h2>
+          <h2>Buscando el equilibrio</h2>
           <div class="small-container">
             <p class="small">
-              El turismo es esencial para la economía segoviana, y por ello las
-              marcas promocionales se han enfocado en atraer visitantes
-              externos. Estas marcas, diseñadas desde las demandas externas y
-              proyectadas hacia dentro, han dado lugar a identidades efímeras
-              que no reflejan la esencia ni la personalidad auténtica de la
-              ciudad. Desde el diseño gráfico, esto evidencia una desconexión
-              con la población local y sus problemáticas, que suponen un riesgo
-              para el futuro de Segovia. El enfoque en el turismo y la población
-              flotante ha generado en los segovianos la percepción de que se
-              está descuidando el carácter local de la ciudad.
+              El turismo es un pilar fundamental en la economía de Segovia, y
+              por este motivo, las marcas que se han desarrollado para hablar
+              han tomado como punto de partida la demanda externa. El resultado
+              han sido identidades que no reflejan la personalidad de la ciudad,
+              y que no nacen de la esencia y el legado de la ciudad.
+            </p>
+            <p class="small">
+              Esta situación es un reflejo en el campo del diseño gráfico de una
+              situación de desconexión de la ciudad con los habitantes y sus
+              problemáticas. El enfoque en la población flotante ha generado en
+              los segovianos una percepción de descuido por el carácter local de
+              Segovia.
             </p>
           </div>
         </div>
@@ -47,19 +43,19 @@
     <section data-aos="fade-up">
       <div class="subsection">
         <div class="text-subsection-single">
-          <h2>Un nuevo planteamiento</h2>
+          <h2>Un nuevo enfoque</h2>
           <div class="small-container">
             <p class="small">
-              El proyecto nace por el impulso de rediseñar la identidad de
-              Segovia desde dentro, poniendo a los habitantes en el centro del
-              proceso para captar la esencia de la ciudad y proyectar una imagen
-              auténtica al mundo, así como integrar a toda la población flotante
-              en ese relato. Además, aspira a integrar a toda la población
-              flotante en este relato. Como base, se realizó una encuesta a 168
-              residentes de diferentes perfiles. El proyecto está pensado en
-              todo momento como un complemento a unas medidas reales para
-              mejorar la ciudad. Desde el diseño gráfico, el objetivo es
-              reforzar la percepción positiva entre la población local.
+              Por eso, con este proyecto se busca una voz gráfica que comunique
+              la personalidad de la ciudad más allá del atractivo turístico, que
+              reconecte con la población local, y que se tome siempre como un
+              acompañamiento gráfico a unas medidas reales y efectivas.
+            </p>
+            <p class="small">
+              Para generar un relato que capte la esencia de lo que Segovia es,
+              se colocó a los habitantes en el punto de partida del proyecto.
+              Como base, se realizó una encuesta a 168 residentes de diferentes
+              perfiles.
             </p>
           </div>
         </div>
@@ -77,22 +73,20 @@
           <h2>La ciudad que late</h2>
           <div class="small-container">
             <p class="small">
-              Es la narrativa central, una metáfora que recoge la esencia de
-              Segovia, su faceta más desconocida, que se muestra cuando te
-              acercas y la conoces de verdad: es un corazón vivo que late con el
-              flujo constante de personas que la nutren. El latido expresa el
-              amor, el hogar y el sentido de comunidad de una ciudad que, por su
-              reducido tamaño, acoge y conecta a quienes la habitan o visitan.
+              Es la narrativa que nace como resultado de esta exploración, y que
+              hila todo el proyecto. Una metáfora que habla de una faceta más
+              desconocida de Segovia que se muestra cuando te acercas: la ciudad
+              es un corazón que late por el flujo constante de personas que
+              nutren su identidad y que hacen que esté en continua
+              transformación. El latido expresa el amor, el hogar y el sentido
+              de comunidad de una ciudad que, por su reducido tamaño, acoge y
+              conecta a quienes la habitan o visitan.
             </p>
             <p class="small">
-              Con esta narrativa, ponemos el punto de partida en el carácter de
-              la ciudad para descubrir su auténtica identidad, al mismo tiempo
-              que promovemos la integración y conciliación entre la población
-              flotante y la local. Queremos comunicar que todos los agentes
-              contribuyen a la construcción de la identidad de Segovia. Además,
-              se presenta a la ciudad como un lugar en constante movimiento,
-              donde las actividades y eventos la mantienen en una continua
-              transformación.
+              La narrativa tiene una aspiración de recoger un relato de lo que
+              es Segovia al margen de su atractivo turístico, y de integrar a la
+              población flotante dentro de este, hablando de un legado que se
+              construye con la aportación de todos.
             </p>
           </div>
         </div>
@@ -111,9 +105,9 @@
           <h2>El esgrafiado: la piel de Segovia</h2>
           <div class="small-container">
             <p class="small">
-              La identidad gráfica gira en torno al esgrafiado segoviano, una
-              técnica ornamental muy presente en las paredes de la ciudad. Este
-              elemento fue elegido por varias razones:
+              El esgrafiado ha sido el elemento del que nos hemos servido para
+              expresar el latido de la ciudad. Es una técnica ornamental muy
+              presente en sus paredes, que fue elegido por varias razones:
             </p>
           </div>
         </div>
@@ -194,13 +188,11 @@
           <h2>SGrafoType: tipografía modular y viva</h2>
           <div class="small-container">
             <p class="small">
-              Así nace SGrafoType, una familia tipográfica inspirada en el
-              esgrafiado. Su diseño modular permite recrear patrones
-              tradicionales y crear nuevos motivos. Además, al ser una
-              tipografía variable en anchura, posibilita incorporar el latido de
-              la ciudad, especialmente en el ámbito audiovisual. Este enfoque
-              otorga al esgrafiado un nuevo significado, vinculándolo con la
-              vitalidad y su carácter acogedor.
+              De esta manera nace SGrafoType, cuyo carácter modular permite
+              recrear patrones inspirados en formas tradicionales del
+              esgrafiado, así como crear nuevos motivos. Su eje de variabilidad
+              posibilita incorporar el latido de la ciudad, otorgando al
+              esgrafiado un nuevo significado, de amor y vitalidad.
             </p>
           </div>
         </div>

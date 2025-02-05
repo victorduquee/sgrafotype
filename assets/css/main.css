@@ -72,23 +72,23 @@ html {
 }
 
 h1 {
-  @apply text-poppins leading-tight font-semibold text-azuloscuro-50;
+  @apply text-poppins font-semibold text-azuloscuro-50;
+
 
   /* Responsive */
-  @apply text-3xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl 2xl:text-5xl;
+  @apply text-3xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl 2xl:text-4xl;
   @apply col-start-1 col-end-13 2xl:col-start-1 2xl:col-end-4;
+  @apply leading-[1.4];
 }
 
 h2 {
   @apply text-poppins text-azuloscuro-50 font-semibold mb-6;
 
   /* Responsive */
-  @apply text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl 2xl:text-3xl;
+  @apply text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl 2xl:text-2xl;
   @apply col-start-1 col-end-13 2xl:col-start-1 2xl:col-end-4;
   @apply mb-4 sm:mb-4 md:mb-4 lg:mb-4 xl:mb-6 2xl:mb-6;
 }
-
-
 
 
 h3 {
@@ -107,7 +107,7 @@ button {
 }
 
 .main-button {
-  @apply text-poppins text-xl font-semibold leading-none focus:outline-none text-azuloscuro-50 whitespace-nowrap;
+  @apply text-poppins text-xl font-medium leading-none focus:outline-none text-azuloscuro-50 whitespace-nowrap;
   @apply transition duration-300;
   @apply hover:text-naranja-50;
 }
@@ -115,7 +115,7 @@ button {
 
 
 .button-big {
-  @apply text-6xl font-medium leading-none  tracking-tight focus:outline-none text-azuloscuro-50 whitespace-nowrap;
+  @apply text-9xl font-light leading-none tracking-tight focus:outline-none text-azuloscuro-50 whitespace-nowrap;
   @apply transition duration-300;
   @apply hover:text-azuloscuro-50;
 
@@ -243,12 +243,9 @@ section {
   @apply text-poppins text-azuloscuro-50 mb-4;
 
   /* Responsive */
-  @apply text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl 2xl:text-3xl;
-  @apply leading-normal sm:leading-normal md:leading-normal lg:leading-normal xl:leading-normal 2xl:leading-normal;
+  @apply text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl 2xl:text-4xl;
+  @apply leading-[1.4];
 }
-
-
-
 
 
 .big:last-child {

@@ -39,7 +39,11 @@
       </video>
     </ClientOnly>
     <img src="/public/assets/bus.png" data-aos="fade-up" />
-    <img src="/public/assets/futbol.png" data-aos="fade-up" />
+    <ClientOnly>
+      <video autoplay muted loop data-aos="fade-up">
+        <source src="/public/assets/cartel.mp4" type="video/mp4" />
+      </video>
+    </ClientOnly>
   </div>
 </template>
 

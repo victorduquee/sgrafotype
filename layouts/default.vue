@@ -16,6 +16,9 @@ import Header from "~/components/Header.vue";
 import Footer from "~/components/Footer.vue";
 
 
+
+
+
 </script>
 
 <style lang="scss" scoped>
@@ -35,4 +38,7 @@ import Footer from "~/components/Footer.vue";
 .header {
   @apply fixed top-0 left-0 right-0;
 }
+
+
+
 </style>
