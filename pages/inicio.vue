@@ -212,7 +212,9 @@
 </template>
 
 <script setup>
+
 definePageMeta({
+  layout: 'inicio',
   title: "Inicio | SGrafoType",
   meta: [
     {
