@@ -67,11 +67,7 @@
     </ClientOnly>
 
 
-    <ClientOnly>
-      <video autoplay muted loop data-aos="fade-up">
-        <source src="/public/assets/retratos.mp4" type="video/mp4" />
-      </video>
-    </ClientOnly>
+
   </div>
 </template>
 

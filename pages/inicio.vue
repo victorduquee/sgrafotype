@@ -1,5 +1,10 @@
 <template>
   <div>
+    <ClientOnly>
+      <video autoplay controls loop data-aos="fade-up">
+        <source src="/public/assets/video_resumen.mp4" type="video/mp4" />
+      </video>
+    </ClientOnly>
     <section data-aos="fade-up">
       <div class="section-info-container">
         <div class="big-solo-container">
